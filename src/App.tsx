@@ -42,7 +42,7 @@ function App() {
       <section id="access" className="py-16 bg-stone-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">アクセス</h2>
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-start">
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <MapPin className="h-6 w-6 text-amber-700 flex-shrink-0 mt-1" />
@@ -77,13 +77,14 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="aspect-w-16 aspect-h-9">
+            <div className="h-[400px]">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4880141903557!2d139.76454375!3d35.68124049999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1635000000000!5m2!1sja!2sjp"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2220.8670335255265!2d136.8985121281155!3d35.49522922704903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600301546e9cbedd%3A0x1e6659376a4f293a!2z44CSNTAxLTMyNDcg5bKQ6Zic55yM6Zai5biC5rGg55Sw55S677yR77yS77yX!5e0!3m2!1sja!2sjp!4v1731070224292!5m2!1sja!2sjp"
                 className="w-full h-full rounded-lg shadow-lg"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
           </div>

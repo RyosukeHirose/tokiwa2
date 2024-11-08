@@ -9,17 +9,17 @@ function App() {
   return (
     <div className="min-h-screen bg-stone-50">
       {/* Navigation */}
-      <nav className="fixed w-full z-50 bg-black/80 backdrop-blur-md">
+      <nav className="fixed w-full z-50 bg-black/90 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0">
-              <h1 className="text-white font-serif text-xl">匠 -TAKUMI-</h1>
+              <h1 className="text-white font-bold text-xl tracking-wider">METZGEREI TOKIWA</h1>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
-                <a href="#about" className="text-gray-300 hover:text-white px-3 py-2 text-sm">こだわり</a>
-                <a href="#menu" className="text-gray-300 hover:text-white px-3 py-2 text-sm">お品書き</a>
-                <a href="#access" className="text-gray-300 hover:text-white px-3 py-2 text-sm">アクセス</a>
+                <a href="#about" className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium uppercase tracking-wider">こだわり</a>
+                <a href="#menu" className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium uppercase tracking-wider">商品一覧</a>
+                <a href="#access" className="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium uppercase tracking-wider">アクセス</a>
               </div>
             </div>
             <div className="md:hidden">
@@ -48,14 +48,14 @@ function App() {
                 <MapPin className="h-6 w-6 text-amber-700 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold mb-2">住所</h3>
-                  <p className="text-gray-600">〒100-0001 東京都千代田区丸の内1-1-1</p>
+                  <p className="text-gray-600">〒501-3247 岐阜県関市池田町１２７</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <Phone className="h-6 w-6 text-amber-700 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold mb-2">電話番号</h3>
-                  <p className="text-gray-600">03-1234-5678</p>
+                  <p className="text-gray-600">0575-23-0029</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -63,8 +63,16 @@ function App() {
                 <div>
                   <h3 className="font-bold mb-2">営業時間</h3>
                   <p className="text-gray-600">
-                    ランチ 11:30〜14:30 (L.O.14:00)<br />
-                    ディナー 17:30〜22:00 (L.O.21:00)
+                    営業時間は
+                    <a 
+                      href="https://www.instagram.com/metzgerei_tokiwa/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-500 mx-1"
+                    >
+                      Instagram
+                    </a>
+                    でご確認ください
                   </p>
                 </div>
               </div>

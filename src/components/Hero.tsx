@@ -14,18 +14,23 @@ export const Hero = () => {
       
       <div className="relative h-full flex items-center justify-center">
         <div className="text-center text-white space-y-8">
-          <h1 className="text-5xl md:text-7xl font-serif tracking-wider">
-            匠 -TAKUMI-
-          </h1>
-          <p className="text-lg md:text-xl tracking-widest">
-            伝統と革新が織りなす至高の一皿
+          <div className="mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold tracking-wider mb-2">
+              METZGEREI TOKIWA
+            </h1>
+            <h2 className="text-2xl md:text-3xl tracking-widest mt-4">
+              メツゲライ・トキワ
+            </h2>
+          </div>
+          <p className="text-lg md:text-xl tracking-widest font-light">
+            伝統のドイツ式ハム・ソーセージ製法を守り続けて
           </p>
-          <div className="mt-8">
+          <div className="mt-12">
             <a
               href="#menu"
-              className="inline-block bg-amber-700 text-white px-8 py-3 rounded-full hover:bg-amber-600 transition duration-300"
+              className="inline-block bg-red-800 text-white px-10 py-4 text-lg tracking-wider rounded hover:bg-red-700 transition duration-300 uppercase font-medium"
             >
-              お品書きを見る
+              商品一覧を見る
             </a>
           </div>
         </div>

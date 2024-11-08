@@ -47,7 +47,7 @@ export const Menu = () => {
       
       <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 relative">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4">お品書き</h2>
+          <h2 className="text-3xl font-bold mb-4">商品一覧</h2>
           <div className="w-24 h-0.5 bg-amber-600 mx-auto mb-4"></div>
           <p className="text-gray-600">四季折々の味わいをご堪能ください</p>
         </div>
@@ -96,9 +96,6 @@ export const Menu = () => {
         </div>
 
         <div className="text-center mt-16">
-          <div className="inline-block px-8 py-3 border-2 border-amber-600 rounded-full text-amber-600 hover:bg-amber-600 hover:text-white transition-colors duration-300 cursor-pointer">
-            コース料理のご案内
-          </div>
           <p className="mt-8 text-xs text-gray-500">
             ※季節や仕入れ状況により、内容が変更になる場合がございます。
           </p>

@@ -79,15 +79,17 @@ export const Ingredients = () => {
   );
 
   return (
-    <section className="py-16 md:py-28 px-4 bg-stone-50 relative overflow-hidden h-[580px] md:h-[680px] lg:h-[580px]">
+    <section id="about" className="py-16 md:py-28 px-4 bg-stone-50 relative overflow-hidden h-[760px] md:h-[850px] lg:h-[580px]">
       <div className="absolute inset-0 opacity-30 bg-[url('https://for-bolt.s3.ap-northeast-1.amazonaws.com/background/background1.jpg')] bg-cover"></div>
       
       <div className="max-w-6xl mx-auto relative">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* テキストコンテンツ */}
-          <div className="space-y-6 md:space-y-8 text-center font-content order-1">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 md:mb-8">素材のこだわり</h2>
-            <div className="space-y-4 text-gray-700 leading-relaxed text-sm md:text-base">
+          <div className="text-center font-content order-1">
+            <h2 className="text-3xl font-bold mb-4">素材のこだわり</h2>
+            <div className="w-24 h-0.5 bg-amber-600 mx-auto mb-4"></div>
+
+            <div className="mt-12 space-y-4 text-gray-700 leading-relaxed text-sm md:text-base">
               <p>
                 素材本来の美味しさが活きる製法で、
                 質の良さにこだわり試行錯誤した結果、
